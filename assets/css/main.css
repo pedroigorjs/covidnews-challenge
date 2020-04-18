@@ -43,6 +43,33 @@ textarea:focus {
   background-color: #e1dfdd;
 }
 
+.logo {
+  position: relative;
+}
+
+.logo h1 {
+  font-weight: 400;
+}
+
+.logo h1 span {
+  font-weight: 500;
+}
+
+.logo::before,
+.logo::after {
+  content: ' ';
+  width: 15px;
+  height: 3px;
+  background-color: #25389e;
+  position: absolute;
+  top: .2rem;
+  right: -.7rem;
+  padding: 0;
+}
+
+.logo::before {
+  transform: rotate(90deg);
+}
 .title {
   font-weight: 500;
   font-size: 2.5rem;
