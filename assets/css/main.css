@@ -4,6 +4,44 @@
 @import './articles.css';
 @import './footer.css';
 @import './queries.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #151515;
+}
+
+body,
+button,
+input,
+textarea {
+  font: 1rem 'CircularStd', sans-serif;
+}
+
+input,
+textarea {
+  background-color: #edebe9;
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: #1e1e1e;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #727272;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #e1dfdd;
+}
 .contact {
   padding: 1rem;
   margin: 2rem 0;
