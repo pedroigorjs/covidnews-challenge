@@ -1,0 +1,83 @@
+@media (min-width: 768px) {
+  .alert {
+    text-align: center;
+  }
+  .menu {
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 1rem 10vw;
+  }
+
+  .links-wrap {
+    display: flex;
+    border: 0;
+    margin: 0;
+    width: auto;
+  }
+
+  .menu-links a {
+    padding: 0;
+  }
+
+  .menu-link + li {
+    margin-left: 3rem;
+  }
+
+  .hero {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80vw;
+    margin: 4rem auto;
+  }
+
+  .hero-content {
+    margin-left: 3rem;
+  }
+
+  .articles {
+    padding: 1rem 10vw;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    text-align: center;
+  }
+
+  .contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+  }
+
+  .contact form input {
+    width: 49%;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .text {
+    max-width: 400px;
+  }
+
+  .about h2 {
+    text-align: center;
+  }
+}
