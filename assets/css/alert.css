@@ -1,0 +1,14 @@
+.alert {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.alert--primary {
+  background-color: #21318e;
+  color: #f3f2f1;
+}
+
+.alert--primary a {
+  color: #f3f2f1;
+}
