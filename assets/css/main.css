@@ -42,6 +42,32 @@ input:focus,
 textarea:focus {
   background-color: #e1dfdd;
 }
+
+.title {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 1rem;
+  border: none;
+  min-width: 100px;
+  cursor: pointer;
+  transition: all .2s ease;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.btn--primary {
+  color: #f3f2f1;
+  background-color: #25389e;
+}
+
+.btn--primary:hover {
+  background-color: #1c2a78;
+}
+
 .contact {
   padding: 1rem;
   margin: 2rem 0;
